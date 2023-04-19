@@ -23,6 +23,7 @@ const HeroSection = () => {
                 <Col lg="6" md="6">
                     <div className='hero__img'>
                         <img src={heroImg} alt='name' className='w-100'/>
+                        <div></div>
                     </div>
                 </Col>
             </Row>
