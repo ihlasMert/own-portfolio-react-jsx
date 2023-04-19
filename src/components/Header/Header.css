@@ -8,6 +8,9 @@
   z-index: 1;
   background-color: #0e1b31;
 }
+.nav__item > a {
+  text-decoration: none;
+}
 
 .nav__list {
   display: flex;
