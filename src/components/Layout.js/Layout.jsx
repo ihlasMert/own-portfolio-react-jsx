@@ -1,7 +1,7 @@
 import React,{Fragment} from 'react'
 import Header from "../Header/Header"
 import HeaderSection from "../Header/hero-section/HeroSection"
-
+import About from '../about/about'
 
 
 const Layout = () => {
@@ -9,6 +9,7 @@ const Layout = () => {
     <Fragment>
       <Header/> 
       <HeaderSection/>
+      <About/>
     </Fragment>
   )
 }
